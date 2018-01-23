@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" media="screen" title="no title" charset="utf-8" type="text/css" href='{% static "styles.css" %}'>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="line" id="msg">{{msg}}</div>
+        <div class="line" id="clock_box"><p>{{date}}</p><p>{{time}}</p></div>
+    </div>
+</body>
+</html>
